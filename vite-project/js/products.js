@@ -49,7 +49,7 @@ const products = [
     {
         title: "Crime and Punishment",
         author: "By Fyodor Dostoevsky",
-        img: "",
+        img: "https://m.media-amazon.com/images/I/612KmKeEYEL._AC_UF1000,1000_QL80_.jpg",
         altText: "Crime and Punishment",  // Added altText
         price: "25 USD", 
         genre: "Psychological Fiction",
@@ -76,7 +76,7 @@ const products = [
     {
         title: "Jane Eyre",
         author: "By Charlotte Brontë",
-        img: "https://m.media-amazon.com/images/I/81Z9nZf1liL.jpg",
+        img: "https://m.media-amazon.com/images/I/61F2kZtma8L._AC_UF1000,1000_QL80_.jpg",
         altText: "Jane Eyre",  // Added altText
         price: "17 USD", 
         genre: "Classic Romance",
