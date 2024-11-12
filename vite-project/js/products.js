@@ -49,7 +49,7 @@ const products = [
     {
         title: "Crime and Punishment",
         author: "By Fyodor Dostoevsky",
-        img: "https://m.media-amazon.com/images/I/515zE1GxvAL._AC_UF1000,1000_QL80_.jpg",
+        img: "",
         altText: "Crime and Punishment",  // Added altText
         price: "25 USD", 
         genre: "Psychological Fiction",
@@ -67,7 +67,7 @@ const products = [
     {
         title: "The Great Gatsby",
         author: "By F. Scott Fitzgerald",
-        img: "https://m.media-amazon.com/images/I/81XItJ62N0L.jpg",
+        img: "https://m.media-amazon.com/images/I/61dRoDRubtL._SY342_.jpg",
         altText: "The Great Gatsby",  // Added altText
         price: "18 USD", 
         genre: "Classic Fiction",
