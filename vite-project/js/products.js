@@ -1,9 +1,9 @@
 
 const products = [
     {
-        title: "Pride and Prejudice",
+        title: "aa and Prejudice",
         author: "By Jane Austen",
-        img: "https://m.media-amazon.com/images/I/81NLDvyAHrL._AC_UF1000,1000_QL80_.jpg",
+        img: "/pride and prejudice.jpg",
         altText: "Pride and Prejudice",  // Added altText
         price: "33 USD", 
         genre: "Classic Fiction",
@@ -49,7 +49,7 @@ const products = [
     {
         title: "Crime and Punishment",
         author: "By Fyodor Dostoevsky",
-        img: "https://m.media-amazon.com/images/I/612KmKeEYEL._AC_UF1000,1000_QL80_.jpg",
+        img: "/crime and punishment.jpg",
         altText: "Crime and Punishment",  // Added altText
         price: "25 USD", 
         genre: "Psychological Fiction",
@@ -76,7 +76,7 @@ const products = [
     {
         title: "Jane Eyre",
         author: "By Charlotte Brontë",
-        img: "https://m.media-amazon.com/images/I/61F2kZtma8L._AC_UF1000,1000_QL80_.jpg",
+        img: "/jane eyre.jpg",
         altText: "Jane Eyre",  // Added altText
         price: "17 USD", 
         genre: "Classic Romance",
@@ -85,7 +85,7 @@ const products = [
     {
         title: "To Kill a Mockingbird",
         author: "By Harper Lee",
-        img: "https://m.media-amazon.com/images/I/81OthjkJBuL.jpg",
+        img: "https://m.media-amazon.com/images/I/61F2kZtma8L._AC_UF1000,1000_QL80_.jpg",
         altText: "To Kill a Mockingbird",  // Added altText
         price: "21 USD", 
         genre: "Classic Fiction",
@@ -94,7 +94,7 @@ const products = [
     {
         title: "Brave New World",
         author: "By Aldous Huxley",
-        img: "https://m.media-amazon.com/images/I/71OywF2qKkL.jpg",
+        img: "https://th.bing.com/th/id/OIP.UtrUfL2kE35h42M4atDQUwHaLK?w=203&h=306&c=7&r=0&o=5&pid=1.7",
         altText: "Brave New World",  // Added altText
         price: "23 USD", 
         genre: "Dystopian Fiction",
@@ -103,7 +103,7 @@ const products = [
     {
         title: "Les Misérables",
         author: "By Victor Hugo",
-        img: "https://m.media-amazon.com/images/I/81jv63y9H4L.jpg",
+        img: "https://m.media-amazon.com/images/I/71mPzsZvh6L._AC_UF1000,1000_QL80_.jpg",
         altText: "Les Misérables",  // Added altText
         price: "30 USD", 
         genre: "Historical Fiction",
@@ -112,7 +112,7 @@ const products = [
     {
         title: "The Road",
         author: "By Cormac McCarthy",
-        img: "https://m.media-amazon.com/images/I/71GbK74iM8L.jpg",
+        img: "/the road.jpg",
         altText: "The Road",  // Added altText
         price: "25 USD", 
         genre: "Post-apocalyptic",
