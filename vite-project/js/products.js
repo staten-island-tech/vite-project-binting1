@@ -49,7 +49,7 @@ const products = [
     {
         title: "Crime and Punishment",
         author: "By Fyodor Dostoevsky",
-        img: "https://m.media-amazon.com/images/I/91pCP7Zn1bL.jpg",
+        img: "https://m.media-amazon.com/images/I/515zE1GxvAL._AC_UF1000,1000_QL80_.jpg",
         altText: "Crime and Punishment",  // Added altText
         price: "25 USD", 
         genre: "Psychological Fiction",
@@ -58,7 +58,7 @@ const products = [
     {
         title: "Frankenstein",
         author: "By Mary Shelley",
-        img: "https://m.media-amazon.com/images/I/81gOanAl-CL.jpg",
+        img: "https://m.media-amazon.com/images/I/515zE1GxvAL._AC_UF1000,1000_QL80_.jpg",
         altText: "Frankenstein",  // Added altText
         price: "19 USD", 
         genre: "Gothic Horror",
