@@ -35,7 +35,7 @@ document.querySelector(".btn").addEventListener("click", function () {
 function showInStockProducts () {
     DOMSelectors.availability.addEventListener("click", function (event) {
       event.preventDefault (); 
-      DOMSelectors.container.innerHTML ="";
+      DOMSelectors.container.innerHTML = "";
 
       const inStock = product 
       .filter((produts) => product.availability === "yes")
@@ -44,7 +44,3 @@ function showInStockProducts () {
   };
 
   showInStockProducts ();
-
-
-// movies.filter((movie) => movie.actor.include("blabhh"));
->>>>>>> 3c6d25c2920dbaa1b9445e990685986581f615e5
