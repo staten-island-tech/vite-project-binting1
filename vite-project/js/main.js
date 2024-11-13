@@ -10,7 +10,7 @@ const DOMSelectors = {
     genreButtons: document.querySelectorAll(".genre-btn"),
 }
 
-function createCard (productArray) 
+
 products.forEach((product) => DOMSelectors.container.insertAdjacentHTML("beforeend", 
     `<div class="card"> 
          <h3 class = "card-title">${product.title}</h3> 
@@ -35,21 +35,11 @@ document.querySelector(".btn").addEventListener("click", function () {
 
 function showInStockProducts () {
     DOMSelectors.inStock.addEventListener("click", function (event) {
-      event.preventDefault (); 
-      DOMSelectors.container.replaceChildren();
+      DOMSelectors.container = "";
       let inStock = products;
       inStock = inStock.filter((product) => product.availability === "yes")
       createCard(inStock);
-    );
+});
   };
 
   showInStockProducts ();
-
-function example() {
-    const saleProducts = products.forEach((product) => 
-        {
-            .product;
-            product.price = product.map(product.price * 0.8);
-        });
-    card(saleProducts);
-}
