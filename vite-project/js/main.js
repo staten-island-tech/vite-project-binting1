@@ -43,3 +43,12 @@ function showInStockProducts () {
   };
 
   showInStockProducts ();
+
+function example() {
+    const saleProducts = products.foreach((product) => 
+        {
+            ..product;
+            product.price = product.map(product.price * 0.8);
+        });
+    card(saleProducts);
+}
