@@ -40,7 +40,7 @@ function showInStockProducts () {
       let inStock = products;
       inStock = inStock.filter((product) => product.availability === "yes")
       createCard(inStock);
-    });
+    );
   };
 
   showInStockProducts ();
