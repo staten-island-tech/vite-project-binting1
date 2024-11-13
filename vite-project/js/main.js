@@ -33,12 +33,12 @@ document.querySelector(".btn").addEventListener("click", function () {
 });
 
 function showInStockProducts () {
-    DOMSelectors.availability.addEventListener("click", function (event) {
+    DOMSelectors.inStock.addEventListener("click", function (event) {
       event.preventDefault (); 
       DOMSelectors.container.innerHTML = "";
 
-      const inStock = product 
-      .filter((produts) => product.availability === "yes")
+      const inStock = products;
+      instock.filter((product) => product.availability === "yes")
       card(inStock);
     });
   };
