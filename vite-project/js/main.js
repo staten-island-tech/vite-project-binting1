@@ -6,21 +6,22 @@ const DOMSelectors = {
     main: document.querySelector(".main"), 
     button: document.querySelector(".btn"),
     card: document.querySelector(".card"),
-    inStock: document.querySelector(".in-stock"),
+    inStock: document.querySelector("in-stock"),
     genreButtons: document.querySelectorAll(".genre-btn"),
 }
 
-
-products.forEach((product) => DOMSelectors.container.insertAdjacentHTML("beforeend", 
-    `<div class="card"> 
-         <h3 class = "card-title">${product.title}</h3> 
-         <img src="${product.img}" alt="${product.altText}" class="card-img"></img>
-         <h5 class = "card-author">${product.author}</h5>
-         <h4 class = "card-price">${product.price} USD</h4>
-         <h5 class = "card-genre">Genre: ${product.genre}</h5>
-         <h5 class = "card-stock">In stock: ${product.availability}</h5>
-    </div>`
-));
+function createCard () {
+    products.forEach((product) => DOMSelectors.container.insertAdjacentHTML("beforeend", 
+        `<div class="card"> 
+            <h3 class = "card-title">${product.title}</h3> 
+            <img src="${product.img}" alt="${product.altText}" class="card-img"></img>
+            <h5 class = "card-author">${product.author}</h5>
+            <h4 class = "card-price">${product.price} USD</h4>
+            <h5 class = "card-genre">Genre: ${product.genre}</h5>
+            <h5 class = "card-stock">In stock: ${product.availability}</h5>
+        </div>`
+    ));
+};
 
 document.querySelector(".btn").addEventListener("click", function () {
     // document.body.classList.add("warm");
@@ -33,13 +34,9 @@ document.querySelector(".btn").addEventListener("click", function () {
     }
 });
 
-function showInStockProducts () {
-    DOMSelectors.inStock.addEventListener("click", function (event) {
-      DOMSelectors.container = "";
+document.querySelector(".in-stock").addEventListener("click", function () {
+      DOMSelectors.container.innerHTML = "";
       let inStock = products;
-      inStock = inStock.filter((product) => product.availability === "yes")
+      inStock = inStock.filter((product) => product.availability === "yes");
       createCard(inStock);
-});
-  };
-
-  showInStockProducts ();
+    });
