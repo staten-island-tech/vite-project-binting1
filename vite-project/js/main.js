@@ -39,7 +39,7 @@ function showInStockProducts () {
       DOMSelectors.container.replaceChildren();
       let inStock = products;
       inStock = inStock.filter((product) => product.availability === "yes")
-      card(inStock);
+      createCard(inStock);
     });
   };
 
@@ -48,7 +48,7 @@ function showInStockProducts () {
 function example() {
     const saleProducts = products.forEach((product) => 
         {
-            ..product;
+            .product;
             product.price = product.map(product.price * 0.8);
         });
     card(saleProducts);
