@@ -35,10 +35,9 @@ document.querySelector(".btn").addEventListener("click", function () {
 function showInStockProducts () {
     DOMSelectors.inStock.addEventListener("click", function (event) {
       event.preventDefault (); 
-      DOMSelectors.container.innerHTML = "";
-
-      const inStock = products;
-      instock.filter((product) => product.availability === "yes")
+      DOMSelectors.container.replacechildren();
+      let inStock = products;
+      inStock = inStock.filter((product) => product.availability === "yes")
       card(inStock);
     });
   };
