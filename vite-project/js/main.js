@@ -10,6 +10,7 @@ const DOMSelectors = {
     genreButtons: document.querySelectorAll(".genre-btn"),
 }
 
+function createCard (productArray) 
 products.forEach((product) => DOMSelectors.container.insertAdjacentHTML("beforeend", 
     `<div class="card"> 
          <h3 class = "card-title">${product.title}</h3> 
@@ -45,7 +46,7 @@ function showInStockProducts () {
   showInStockProducts ();
 
 function example() {
-    const saleProducts = products.foreach((product) => 
+    const saleProducts = products.forEach((product) => 
         {
             ..product;
             product.price = product.map(product.price * 0.8);
