@@ -39,7 +39,11 @@ body,
 }
 
 h1 {
+<<<<<<< HEAD
   font-size: var(--h1);
+=======
+  font-size: 3.2rem;
+>>>>>>> 3c6d25c2920dbaa1b9445e990685986581f615e5
 }
 
 h2{
@@ -72,11 +76,14 @@ body {
 
 }
 
+<<<<<<< HEAD
 #heading {
   background-color: var(--secondary);
   padding: 5px 40vw;
 }
 
+=======
+>>>>>>> 3c6d25c2920dbaa1b9445e990685986581f615e5
 .warm {
   --primary: var(--light-red);
   --secondary:var(--dark-red);
@@ -99,7 +106,11 @@ body {
   height: 50%; 
   width: 25%; 
   border-radius:5px;
+<<<<<<< HEAD
   background-color:aliceblue; 
+=======
+  background-color:burlywood ; 
+>>>>>>> 3c6d25c2920dbaa1b9445e990685986581f615e5
   margin: 30px;
   box-shadow: black; 
   padding: 20px;
@@ -115,10 +126,13 @@ body {
   
 }
 
+<<<<<<< HEAD
 .card-price {
   background-color: var(--primary);
 }
 
+=======
+>>>>>>> 3c6d25c2920dbaa1b9445e990685986581f615e5
 a {
   font-weight: 500;
   color: #646cff;
@@ -160,14 +174,21 @@ button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
+<<<<<<< HEAD
   margin: 1.5em .5em;
   font-size: 1.5em;
+=======
+  font-size: 1em;
+>>>>>>> 3c6d25c2920dbaa1b9445e990685986581f615e5
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+<<<<<<< HEAD
   
+=======
+>>>>>>> 3c6d25c2920dbaa1b9445e990685986581f615e5
 }
 button:hover {
   border-color: #646cff;
