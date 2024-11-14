@@ -4,13 +4,9 @@ import {products} from '/js/products.js'
 const DOMSelectors = { 
     container: document.querySelector(".container"), 
     main: document.querySelector(".main"), 
-    button: document.querySelector(".btn"),
-    card: document.querySelector(".card"),
-    inStock: document.querySelector("in-stock"),
-    genreButtons: document.querySelectorAll(".genre-btn"),
 }
 
-function createCard () {
+function createCard (products) {
     products.forEach((product) => DOMSelectors.container.insertAdjacentHTML("beforeend", 
         `<div class="card"> 
             <h3 class = "card-title">${product.title}</h3> 
@@ -22,6 +18,8 @@ function createCard () {
         </div>`
     ));
 };
+
+createCard (products);
 
 document.querySelector(".btn").addEventListener("click", function () {
     // document.body.classList.add("warm");
@@ -40,3 +38,32 @@ document.querySelector(".in-stock").addEventListener("click", function () {
       inStock = inStock.filter((product) => product.availability === "yes");
       createCard(inStock);
     });
+
+
+document.querySelector(".thriller").addEventListener("click", function (){
+    DOMSelectors.container.innerHTML = "";
+    let thriller = products; 
+    thriller = thriller.filter((product) => product.genre === "Thriller");
+    createCard(thriller);
+});
+
+document.querySelector(".fantasy").addEventListener("click", function (){
+    DOMSelectors.container.innerHTML = "";
+    let fantasy = products; 
+    fantasy = fantasy.filter((product) => product.genre === "Fantasy");
+    createCard(fantasy);
+});
+
+document.querySelector(".memoir").addEventListener("click", function (){
+    DOMSelectors.container.innerHTML = "";
+    let memoir = products; 
+    memoir = memoir.filter((product) => product.genre === "Memoir");
+    createCard(memoir);
+});
+
+document.querySelector(".romance").addEventListener("click", function (){
+    DOMSelectors.container.innerHTML = "";
+    let romance = products; 
+    romance = romance.filter((product) => product.genre === "Romance");
+    createCard(romance);
+});

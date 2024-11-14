@@ -171,7 +171,7 @@ const products = [
   {
       title: "Pride and Prejudice",
       author: "By Jane Austen",
-      img: "",  // Removed image URL
+      img: "img/jane eyre.jpg",  // Removed image URL
       altText: "Pride and Prejudice",
       price: 33,  // Converted to number
       genre: "Romance",
