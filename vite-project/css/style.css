@@ -21,15 +21,21 @@ body,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --light-blue: #2998ff;
-  --dark-blue: #135cc5;
+  --light-red:#b0041a;
+  --dark-red: #500711;
 
-  --light-red: #f87171;
-  --dark-red: #dc2626;
+  --pale-blue: #ccd1db;
+  --sky-blue: #858fb4;
 
-  --primary: var(--light-blue);
-  --secondary: var(--dark-blue);
-  --font-color: #001010;
+  --light-pink: #ebbac2;
+  --dark-pink: #eb7096;
+
+  --beige: #f5f2f0;
+  --yellow: #edb240;
+
+  --primary: var(--pale-blue);
+  --secondary: var(--sky-blue);
+  --font-color: #001010; 
 
   --h1: 7.594rem;
   --h2: 5.063rem; 
@@ -77,14 +83,25 @@ body {
   padding: 5px 40vw;
 }
 
-.warm {
+.thriller {
   --primary: var(--light-red);
   --secondary:var(--dark-red);
+
 }
 
-.cool {
-  --primary: var(--light-blue);
-  --secondary:var(--dark-blue);
+.fantasy {
+  --primary: var(--beige);
+  --secondary:var(--yellow);
+}
+
+.memoir {
+  --primary: var(--pale-blue);
+  --secondary:var(--sky-blue);
+}
+
+.romance {
+  --primary: var(--light-pink);
+  --secondary:var(--dark-pink);
 }
 
 .container {

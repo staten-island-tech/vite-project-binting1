@@ -3,7 +3,7 @@ const products = [
   {
       title: "The Silent Patient",
       author: "By Alex Michaelides",
-      img: "",  // Removed image URL
+      img: "img/silent patient.jpg",  // Removed image URL
       altText: "The Silent Patient",
       price: 19,  // Converted to number
       genre: "Thriller",  // Updated genre
@@ -12,7 +12,7 @@ const products = [
   {
       title: "Gone Girl",
       author: "By Gillian Flynn",
-      img: "",  // Removed image URL
+      img: "img/gone girl.jpg",  // Removed image URL
       altText: "Gone Girl",
       price: 15,  // Converted to number
       genre: "Thriller",
@@ -21,7 +21,7 @@ const products = [
   {
       title: "The Girl with the Dragon Tattoo",
       author: "By Stieg Larsson",
-      img: "",  // Removed image URL
+      img: "img/girl with dragon tattoo.jpg",  // Removed image URL
       altText: "The Girl with the Dragon Tattoo",
       price: 18,  // Converted to number
       genre: "Thriller",
@@ -30,7 +30,7 @@ const products = [
   {
       title: "The Woman in the Window",
       author: "By A. J. Finn",
-      img: "",  // Removed image URL
+      img: "img/woman in the window.jpg",  // Removed image URL
       altText: "The Woman in the Window",
       price: 20,  // Converted to number
       genre: "Thriller",
@@ -39,7 +39,7 @@ const products = [
   {
       title: "The Reversal",
       author: "By Michael Connelly",
-      img: "",  // Removed image URL
+      img: "img/the reversal.jpg",  // Removed image URL
       altText: "The Reversal",
       price: 17,  // Converted to number
       genre: "Thriller",
@@ -48,7 +48,7 @@ const products = [
   {
       title: "Sharp Objects",
       author: "By Gillian Flynn",
-      img: "",  // Removed image URL
+      img: "img/sharp objects.jpg",  // Removed image URL
       altText: "Sharp Objects",
       price: 14,  // Converted to number
       genre: "Thriller",
@@ -59,7 +59,7 @@ const products = [
   {
       title: "Becoming",
       author: "By Michelle Obama",
-      img: "",  // Removed image URL
+      img: "img/becoming.jpg",  // Removed image URL
       altText: "Becoming",
       price: 24,  // Converted to number
       genre: "Memoir",
@@ -68,7 +68,7 @@ const products = [
   {
       title: "Educated",
       author: "By Tara Westover",
-      img: "",  // Removed image URL
+      img: "img/educated.jpg",  // Removed image URL
       altText: "Educated",
       price: 16,  // Converted to number
       genre: "Memoir",
@@ -77,7 +77,7 @@ const products = [
   {
       title: "The Glass Castle",
       author: "By Jeannette Walls",
-      img: "",  // Removed image URL
+      img: "img/glass castle.jpg",  // Removed image URL
       altText: "The Glass Castle",
       price: 18,  // Converted to number
       genre: "Memoir",
@@ -86,7 +86,7 @@ const products = [
   {
       title: "When Breath Becomes Air",
       author: "By Paul Kalanithi",
-      img: "",  // Removed image URL
+      img: "img/when breath becomes air.jpg",  // Removed image URL
       altText: "When Breath Becomes Air",
       price: 19,  // Converted to number
       genre: "Memoir",
@@ -95,7 +95,7 @@ const products = [
   {
       title: "Wild",
       author: "By Cheryl Strayed",
-      img: "",  // Removed image URL
+      img: "img/wild.jpg",  // Removed image URL
       altText: "Wild",
       price: 18,  // Converted to number
       genre: "Memoir",
@@ -104,7 +104,7 @@ const products = [
   {
       title: "Steve Jobs",
       author: "By Walter Isaacson",
-      img: "",  // Removed image URL
+      img: "img/steve jobs.jpg",  // Removed image URL
       altText: "Steve Jobs",
       price: 21,  // Converted to number
       genre: "Memoir",
@@ -115,7 +115,7 @@ const products = [
   {
       title: "The Name of the Wind",
       author: "By Patrick Rothfuss",
-      img: "",  // Removed image URL
+      img: "img/name of the wind.jpg",  // Removed image URL
       altText: "The Name of the Wind",
       price: 25,  // Converted to number
       genre: "Fantasy",
@@ -124,7 +124,7 @@ const products = [
   {
       title: "Circe",
       author: "By Madeline Miller",
-      img: "",  // Removed image URL
+      img: "img/circe.jpg",  // Removed image URL
       altText: "Circe",
       price: 23,  // Converted to number
       genre: "Fantasy",
@@ -133,7 +133,7 @@ const products = [
   {
       title: "The Hobbit",
       author: "By J.R.R. Tolkien",
-      img: "",  // Removed image URL
+      img: "img/the hobbit.jpg",  // Removed image URL
       altText: "The Hobbit",
       price: 20,  // Converted to number
       genre: "Fantasy",
@@ -142,7 +142,7 @@ const products = [
   {
       title: "The Night Circus",
       author: "By Erin Morgenstern",
-      img: "",  // Removed image URL
+      img: "img/night circus.jpg",  // Removed image URL
       altText: "The Night Circus",
       price: 24,  // Converted to number
       genre: "Fantasy",
@@ -151,7 +151,7 @@ const products = [
   {
       title: "The Priory of the Orange Tree",
       author: "By Samantha Shannon",
-      img: "",  // Removed image URL
+      img: "img/priory of the orange tree.jpg",  // Removed image URL
       altText: "The Priory of the Orange Tree",
       price: 28,  // Converted to number
       genre: "Fantasy",
@@ -160,7 +160,7 @@ const products = [
   {
       title: "A Court of Thorns and Roses",
       author: "By Sarah J. Maas",
-      img: "",  // Removed image URL
+      img: "img/a court of thorns and roses.jpg",  // Removed image URL
       altText: "A Court of Thorns and Roses",
       price: 22,  // Converted to number
       genre: "Fantasy",
@@ -171,7 +171,7 @@ const products = [
   {
       title: "Pride and Prejudice",
       author: "By Jane Austen",
-      img: "img/jane eyre.jpg",  // Removed image URL
+      img: "img/pride and prejudice.jpg",  // Removed image URL
       altText: "Pride and Prejudice",
       price: 33,  // Converted to number
       genre: "Romance",
@@ -181,7 +181,7 @@ const products = [
   {
       title: "The Notebook",
       author: "By Nicholas Sparks",
-      img: "",  // Removed image URL
+      img: "img/the notebook.jpg",  // Removed image URL
       altText: "The Notebook",
       price: 18,  // Converted to number
       genre: "Romance",
@@ -190,7 +190,7 @@ const products = [
   {
       title: "Me Before You",
       author: "By Jojo Moyes",
-      img: "",  // Removed image URL
+      img: "img/me before you.jpg",  // Removed image URL
       altText: "Me Before You",
       price: 20,  // Converted to number
       genre: "Romance",
@@ -199,7 +199,7 @@ const products = [
   {
       title: "Outlander",
       author: "By Diana Gabaldon",
-      img: "",  // Removed image URL
+      img: "img/outlander.jpg",  // Removed image URL
       altText: "Outlander",
       price: 22,  // Converted to number
       genre: "Romance",
@@ -208,7 +208,7 @@ const products = [
   {
       title: "The Rosie Project",
       author: "By Graeme Simsion",
-      img: "",  // Removed image URL
+      img: "img/rosie project.jpg",  // Removed image URL
       altText: "The Rosie Project",
       price: 17,  // Converted to number
       genre: "Romance",
@@ -217,7 +217,7 @@ const products = [
   {
       title: "Twilight",
       author: "By Stephenie Meyer",
-      img: "",  // Removed image URL
+      img: "img/twilight.jpg",  // Removed image URL
       altText: "Twilight",
       price: 16,  // Converted to number
       genre: "Romance",
@@ -225,4 +225,5 @@ const products = [
   }
 ];
 
+products.sort((a,b) => a.title.localeCompare(b.title)); 
 export {products};

@@ -9,7 +9,7 @@ const DOMSelectors = {
 function createCard (products) {
     products.forEach((product) => DOMSelectors.container.insertAdjacentHTML("beforeend", 
         `<div class="card"> 
-            <h3 class = "card-title">${product.title}</h3> 
+            <h4 class = "card-title">${product.title}</h4> 
             <img src="${product.img}" alt="${product.altText}" class="card-img"></img>
             <h5 class = "card-author">${product.author}</h5>
             <h4 class = "card-price">${product.price} USD</h4>
@@ -22,14 +22,9 @@ function createCard (products) {
 createCard (products);
 
 document.querySelector(".btn").addEventListener("click", function () {
-    // document.body.classList.add("warm");
-    if(document.body.classList.contains("cool")) {
-        document.body.classList.add("warm");
-        document.body.classList.remove("cool");
-    } else {
-        document.body.classList.add("cool");
-        document.body.classList.remove("warm");
-    }
+    DOMSelectors.container.innerHTML = "";
+    document.body.classList.remove("fantasy", "memoir", "romance", "thriller");
+    createCard(products);
 });
 
 document.querySelector(".in-stock").addEventListener("click", function () {
@@ -45,6 +40,13 @@ document.querySelector(".thriller").addEventListener("click", function (){
     let thriller = products; 
     thriller = thriller.filter((product) => product.genre === "Thriller");
     createCard(thriller);
+    if(document.body.classList.contains("fantasy", "memoir", "romance")) {
+        document.body.classList.add("thriller");
+        document.body.classList.remove("fantasy", "memoir", "romance");
+    } else {
+        document.body.classList.add("thriller");
+        document.body.classList.remove("fantasy", "memoir", "romance");
+    }
 });
 
 document.querySelector(".fantasy").addEventListener("click", function (){
@@ -52,6 +54,13 @@ document.querySelector(".fantasy").addEventListener("click", function (){
     let fantasy = products; 
     fantasy = fantasy.filter((product) => product.genre === "Fantasy");
     createCard(fantasy);
+    if(document.body.classList.contains("thriller", "memoir", "romance")) {
+        document.body.classList.add("fantasy");
+        document.body.classList.remove("thriller", "memoir", "romance");
+    } else {
+        document.body.classList.add("fantasy");
+        document.body.classList.remove("thriller", "memoir", "romance");
+    }
 });
 
 document.querySelector(".memoir").addEventListener("click", function (){
@@ -59,6 +68,13 @@ document.querySelector(".memoir").addEventListener("click", function (){
     let memoir = products; 
     memoir = memoir.filter((product) => product.genre === "Memoir");
     createCard(memoir);
+    if(document.body.classList.contains("fantasy", "thriller", "romance")) {
+        document.body.classList.add("memoir");
+        document.body.classList.remove("fantasy", "thriller", "romance");
+    } else {
+        document.body.classList.add("memoir");
+        document.body.classList.remove("fantasy", "thriller", "romance");
+    }
 });
 
 document.querySelector(".romance").addEventListener("click", function (){
@@ -66,4 +82,11 @@ document.querySelector(".romance").addEventListener("click", function (){
     let romance = products; 
     romance = romance.filter((product) => product.genre === "Romance");
     createCard(romance);
+    if(document.body.classList.contains("fantasy", "memoir", "thriller")) {
+        document.body.classList.add("romance");
+        document.body.classList.remove("fantasy", "memoir", "thriller");
+    } else {
+        document.body.classList.add("romance");
+        document.body.classList.remove("fantasy", "memoir", "thriller");
+    }
 });
